@@ -1,0 +1,24 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local tools and generated test output
+__pycache__/
+*.py[cod]
+node_modules/
+playwright-report/
+test-results/
+*.log
+
+# Local copies of course sources
+/attachments/
+/course-materials/
+/course_materials.zip
+/maintenance-intervention-cuts-downtime.pdf
